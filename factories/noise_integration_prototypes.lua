@@ -2,8 +2,7 @@
 ]]--
 
 require 'randomkit'
-package.path = package.path .. '/Users/ioannis/workspace/optimisation/optimx/benchmarking/utils/?.lua'
-require 'numintegr'
+require 'optimbench.numintegr'
 
 local integral_wrappers={}
 
